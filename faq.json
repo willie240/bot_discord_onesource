@@ -1,88 +1,36 @@
 {
-"perguntas": [
-{
-"categoria": "Especializações",
-"pergunta": "Posso fazer as duas especializações Back-End e Data Science?",
-"resposta": "Você só pode escolher uma especialização.",
-"palavras_chave": ["especialização", "duas especializações", "trilha", "escolha"]
-},
-{
-"categoria": "Challenges",
-"pergunta": "Os Challenges são obrigatórios?",
-"resposta": "São obrigatórios para que você tenha uma experiência completa no ONE e também são critério obrigatório para se graduar.",
-"palavras_chave": ["challenge", "desafio", "obrigatório"]
-},
-{
-"categoria": "Planos de Estudo",
-"pergunta": "Os planos de estudo são obrigatórios?",
-"resposta": "Não, eles são opcionais. Servem apenas como apoio para organizar seus estudos.",
-"palavras_chave": ["plano de estudo", "obrigatório", "opcional"]
-},
-{
-"categoria": "Planos de Estudo",
-"pergunta": "As datas dos planos de estudo são obrigatórias?",
-"resposta": "Não, são apenas sugestivas. A única data obrigatória é a final da etapa: 19 de agosto às 23:59.",
-"palavras_chave": ["datas", "plano de estudo"]
-},
-{
-"categoria": "Challenges",
-"pergunta": "Como funcionam os Challenges das formações?",
-"resposta": "Os challenges são projetos práticos baseados nos cursos estudados. Desde que o aluno implemente as funcionalidades básicas do Trello, o projeto é válido.",
-"palavras_chave": ["challenge", "desafio", "funcionalidades"]
-},
-{
-"categoria": "Dashboard",
-"pergunta": "Não consigo ver as formações na tela inicial. O que fazer?",
-"resposta": "Acesse a formação que não aparece e clique em 'Exibir no meu dashboard'.",
-"palavras_chave": ["dashboard", "formações", "sumiu"]
-},
-{
-"categoria": "Eventos",
-"pergunta": "Perdi a transmissão ao vivo. Posso reassistir?",
-"resposta": "Sim, basta acessar o mesmo link do YouTube e assistir quando quiser.",
-"palavras_chave": ["evento", "ao vivo", "transmissão"]
-},
-{
-"categoria": "Back-End - Critérios",
-"pergunta": "Quais são os critérios para seguir para a próxima fase do ONE?",
-"resposta": "Você deve concluir todas as formações obrigatórias até o dia 19 de agosto às 23:59 (Horário de Brasília).",
-"palavras_chave": ["critérios", "próxima fase", "obrigatório"]
-},
-{
-"categoria": "Back-End - Deploy",
-"pergunta": "É obrigatório fazer deploy dos challenges Back-End?",
-"resposta": "Não é obrigatório fazer deploy. Apenas as funcionalidades básicas do Trello precisam ser entregues.",
-"palavras_chave": ["deploy", "back-end", "challenge"]
-},
-{
-"categoria": "Back-End - IDE",
-"pergunta": "É obrigatório usar o IntelliJ?",
-"resposta": "Não é obrigatório, mas recomendamos porque é a IDE usada nos cursos.",
-"palavras_chave": ["intellij", "ide", "obrigatório"]
-},
-{
-"categoria": "Back-End - Java",
-"pergunta": "Qual versão do Java devo usar?",
-"resposta": "Nos cursos é usada a versão 17. Recomendamos usar ela, mas também pode usar versões LTS mais recentes como 21 ou 25.",
-"palavras_chave": ["java", "versão", "lts"]
-},
-{
-"categoria": "Data Science - Linguagem",
-"pergunta": "Qual linguagem devo usar em Data Science?",
-"resposta": "Recomendamos Python, pois é a linguagem principal usada nos cursos e possui maior ecossistema de bibliotecas para análise de dados.",
-"palavras_chave": ["data science", "python", "linguagem"]
-},
-{
-"categoria": "Data Science - Ferramentas",
-"pergunta": "Quais ferramentas são usadas na trilha de Data Science?",
-"resposta": "Usamos principalmente Jupyter Notebook, Pandas, NumPy, Matplotlib e ferramentas de visualização.",
-"palavras_chave": ["ferramentas", "pandas", "jupyter"]
-},
-{
-"categoria": "Data Science - Projetos",
-"pergunta": "Os projetos de Data Science precisam ser complexos?",
-"resposta": "Não. O importante é aplicar corretamente os conceitos e entregar as etapas solicitadas.",
-"palavras_chave": ["projetos", "complexidade", "data science"]
-}
-]
+  "config": {
+    "idioma": "es",
+    "programa": "Oracle Next Education (ONE) - Grupo 10",
+    "region": "LATAM"
+  },
+  "fase_inmersion": {
+    "preguntas_respuestas": [
+      { "id": 1, "pregunta": "¿Qué es la fase de inmersión?", "respuesta": "Es la segunda fase del programa ONE, donde los participantes tendrán contacto inicial con contenidos de Inteligencia Artificial y desarrollarán su primer proyecto en IA." },
+      { "id": 2, "pregunta": "¿Cuál es el objetivo de la inmersión?", "respuesta": "Desarrollar el primer proyecto en IA con base en contenidos introductorios." },
+      { "id": 3, "pregunta": "¿La inmersión es obligatoria?", "respuesta": "Sí, es necesaria para avanzar a la próxima fase del programa." },
+      { "id": 4, "pregunta": "¿Cuándo ocurre la inmersión?", "respuesta": "Del 18/05 al 22/05." },
+      { "id": 5, "pregunta": "¿Cuánto tiempo dura la inmersión?", "respuesta": "Dura 1 semana." },
+      { "id": 6, "pregunta": "¿Cuántas clases tendremos?", "respuesta": "Serán 3 clases online." },
+      { "id": 7, "pregunta": "¿Las clases son al vivo o grabadas?", "respuesta": "Las clases son online y los materiales quedan grabados." },
+      { "id": 8, "pregunta": "¿Qué contenidos serán abordados?", "respuesta": "Durante la inmersión verás: IA (Inteligencia Artificial), Automatización con n8n, RAG (Retrieval-Augmented Generation) y Agentes de IA." },
+      { "id": 9, "pregunta": "¿Necesito tener conocimiento previo?", "respuesta": "Sí, es necesario contar con conocimientos técnicos básicos. Aunque los cursos inician con contenidos introductorios, otros son más avanzados y requieren que sepas lo básico de programación para poder llevarlos a cabo con éxito." },
+      { "id": 10, "pregunta": "¿Dónde ocurrirán las clases?", "respuesta": "Los cursos están alojados en la plataforma de Alura, pero las clases en vivo generalmente se realizan a través de Discord o Microsoft Teams." },
+      { "id": 11, "pregunta": "¿Cómo voy a acceder a la plataforma?", "respuesta": "La información de acceso se envía siempre a tu correo electrónico, pero también puedes encontrar estas instrucciones en los canales de #avisos en Discord." },
+      { "id": 12, "pregunta": "¿Necesito pagar algo para acceder?", "respuesta": "No, el acceso es proporcionado por el programa." },
+      { "id": 13, "pregunta": "¿Recibiré certificado?", "respuesta": "Sí, al concluir la inmersión recibirás un certificado." },
+      { "id": 14, "pregunta": "¿El certificado es obligatorio?", "respuesta": "Sí, es necesario para avanzar a la fase de Cursos Tech. Ten en cuenta que recibirás certificados tanto por los cursos individuales completados como un certificado general al finalizar todo el programa." },
+      { "id": 15, "pregunta": "¿Cómo obtener el certificado?", "respuesta": "Participando en la inmersión y cumpliendo los requisitos definidos." },
+      { "id": 16, "pregunta": "¿Cuáles son los requisitos para participar en la próxima fase?", "respuesta": "Debes obtener el certificado de la inmersión y completar el nuevo formulario que será enviado." },
+      { "id": 17, "pregunta": "¿Qué pasa después de la inmersión?", "respuesta": "Podrás avanzar a la próxima fase del programa si cumples los requisitos." },
+      { "id": 18, "pregunta": "¿Necesito hacer algo para ir a la próxima fase?", "respuesta": "Sí: Obtener el certificado de la inmersión y llenar el nuevo formulario que se te enviará por correo." },
+      { "id": 19, "pregunta": "¿Voy a desarrollar un proyecto?", "respuesta": "Sí, desarrollarás tu primer proyecto en IA durante la inmersión." },
+      { "id": 20, "pregunta": "¿El proyecto es individual o en grupo?", "respuesta": "El proyecto es individual." },
+      { "id": 21, "pregunta": "¿Y si pierdo una clase?", "respuesta": "No te preocupes, los materiales de las clases quedan grabados y se comparten en el canal de #avisos." },
+      { "id": 22, "pregunta": "¿Puedo hacer la inmersión a mi ritmo?", "respuesta": "La inmersión tiene fechas específicas para las entregas, pero puedes realizar las actividades en tu propio horario." },
+      { "id": 23, "pregunta": "¿Dónde aclaro mis dudas?", "respuesta": "En el servidor de Discord del programa." },
+      { "id": 24, "pregunta": "¿Recibiré más información?", "respuesta": "Sí, el equipo enviará instrucciones detalladas a lo largo de la fase." },
+      { "id": 25, "pregunta": "¿Cómo contacto a soporte?", "respuesta": "Puedes escribir a contacto-one@aluracursos.com o contactar a nuestras CMs Leti Farias o Roby." }
+    ]
+  }
 }
