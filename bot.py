@@ -1,11 +1,13 @@
 import sys
 import logging
+import threading
 import discord
 from discord.ext import commands
 import json
 import os
 from dotenv import load_dotenv
 from openai import OpenAI
+import webserver
 
 sys.stdout.reconfigure(encoding='utf-8')
 logging.basicConfig(level=logging.INFO)
@@ -230,4 +232,5 @@ if __name__ == "__main__":
     if not DISCORD_TOKEN or not OPENAI_API_KEY:
         print("❌ ERROR: Verifica las claves DISCORD_TOKEN y OPENAI_API_KEY en el .env")
     else:
+        threading.Thread(target=webserver.run, daemon=True).start()
         bot.run(DISCORD_TOKEN)
